@@ -1,0 +1,26 @@
+{
+  "name": "nodepackage",
+  "version": "1.0.0",
+  "description": "패키지 테스트를 위한 환경",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc",
+    "start": "ts-node src/index.ts",
+    "dev": "ts-node-dev --respawn src/index.ts",
+    "run:test": "ts-node"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "axios": "^1.8.4",
+    "date-fns": "^4.1.0"
+  }
+}
